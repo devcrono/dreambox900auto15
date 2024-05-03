@@ -35,7 +35,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <hr>
 <br>
 <div id="main-section">
-<button class="btn btn-main" type="button" onmouseover="msgs.innerHTML='Executar GoldHen V2.4B16.2 FW 9.00'" onmouseout="msgs.innerHTML='CRONO_ DREAMBOX PS4 FW 9.00 V15'"><img class="icone" src="img/HenEnable.png" onclick=load_goldhen24b16.2()><br> GoldHEN V2.4B16.2 </button>
+<button class="btn btn-main" type="button" onmouseover="msgs.innerHTML='Executar GoldHen V2.4B16.2 FW 9.00'" onmouseout="msgs.innerHTML='CRONO_ DREAMBOX PS4 FW 9.00 V15'"><img class="icone" src="img/HenEnable.png" onclick=load_goldhen24b162()><br> GoldHEN V2.4B16.2 </button>
 <button class="btn btn-main" type="button" onmouseover="msgs.innerHTML='Executar GoldHen V2.4B14 FW 9.00'" onmouseout="msgs.innerHTML='CRONO_ DREAMBOX PS4 FW 9.00 V15'"><img class="icone" src="img/HenEnable.png" onclick=load_goldhen24b14()><br> GoldHEN V2.4B14 </button>
 <button class="btn btn-main" type="button" onmouseover="msgs.innerHTML='Executar GoldHen V2.3 FW 9.00'" onmouseout="msgs.innerHTML='CRONO_ DREAMBOX PS4 FW 9.00 V15'"><img class="icone" src="img/HenEnable.png" onclick=load_goldhen23()><br> GoldHEN V2.3 </button>
 <br>
@@ -207,9 +207,9 @@ function loadScript(path)
     xhr.send('');
     return xhr.responseText;
 }
-function load_goldhen24b16.2(){
+function load_goldhen24b162(){
 LoadedMSG = "Carregando GoldHEN V2.4B16.2 ...";
-PLfile = "goldhen_v2.4b16.2.bin";
+PLfile = "goldhen_v2.4b162.bin";
 exec_loader = "payload";
 load_poc();
 }
